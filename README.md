@@ -52,34 +52,34 @@ Notification triggers are set at the Group Root level and on the router device:
 ## Evidence
 
 ### 1. Router interface (baseline)
-![VyOS router eth0 up](screenshots/01-vyos-lab-router-eth0-interface.png)
+![VyOS router eth0 up](01-vyos-lab-router-eth0-interface.png)
 
 ### 2. Switch interface (baseline)
-![VyOS switch eth0 up](screenshots/02-vyos-lab-switch-eth0-interface.png)
+![VyOS switch eth0 up](02-vyos-lab-switch-eth0-interface.png)
 
 ### 3. PRTG Local Probe with both devices in the 1st group
-![PRTG device tree](screenshots/03-prtg-local-probe-1st-group-devices.png)
+![PRTG device tree](03-prtg-local-probe-1st-group-devices.png)
 
 ### 4. Lab dashboard map (healthy)
-![PRTG map, healthy](screenshots/04-prtg-map-lab-dashboard.png)
+![PRTG map, healthy](04-prtg-map-lab-dashboard.png)
 
 ### 5. Group Root notification triggers
-![PRTG notification triggers](screenshots/05-prtg-group-root-notification-triggers.png)
+![PRTG notification triggers](05-prtg-group-root-notification-triggers.png)
 
 ### 6. Disabling eth0 on the router (CLI)
-![eth0 disabled on router](screenshots/06-vyos-lab-router-eth0-disabled-cli.png)
+![eth0 disabled on router](06-vyos-lab-router-eth0-disabled-cli.png)
 
 ### 7. Map showing the router down
-![PRTG map, router down](screenshots/07-prtg-map-router-disabled.png)
+![PRTG map, router down](07-prtg-map-router-disabled.png)
 
 ### 8. Ticket raised for router eth0 down
-![PRTG ticket](screenshots/08-prtg-ticket-router-eth0-down.png)
+![PRTG ticket](08-prtg-ticket-router-eth0-down.png)
 
 ### 9. Bringing eth0 back up (CLI)
-![eth0 restored on router](screenshots/09-vyos-lab-router-eth0-restored-cli.png)
+![eth0 restored on router](09-vyos-lab-router-eth0-restored-cli.png)
 
 ### 10. Map showing the router fully restored
-![PRTG map, restored](screenshots/10-prtg-map-device-fully-restored.png)
+![PRTG map, restored](10-prtg-map-device-fully-restored.png)
 
 ## Key Takeaways
 
