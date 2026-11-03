@@ -39,7 +39,7 @@ Notification triggers are set at the Group Root level and on the router device:
 | Condition | Action |
 |---|---|
 | Sensor Down for 60 seconds | Ticket notification (Root) / Email and push notification to admin (router device) |
-| Sensor Down for 300 seconds | Email and push notification to admin (no repeat) |
+| Sensor Down for 60 seconds | Email and push notification to admin (no repeat) |
 | Sensor no longer Down | Recovery notification |
 
 ## Failure Test
